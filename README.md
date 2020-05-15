@@ -1,7 +1,7 @@
 # selfOS
 HomeBrew OS on your environment with docker
 # Require
-Docker environment.
+Docker environment.  
 Windows  
 [Docker Desktop for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)  
 
