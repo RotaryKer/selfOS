@@ -16,12 +16,14 @@ Windows
 [X window for Windows](http://www.straightrunning.com/XmingNotes/)  
 
 MacOSX  
-[X window for Mac](https://www.xquartz.org/)  
+[X window for Mac](https://www.xquartz.org/)   
 
-
+Only that....Maybe
+If you get in trouble ,Plese ask me or google.
 
 
 
 # Usage
 # License
-MIT License
+MIT License  
+Email : kakky.ryouhei@gmail.com
