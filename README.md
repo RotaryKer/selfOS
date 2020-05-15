@@ -1,5 +1,5 @@
 # selfOS
-HomeBrew OS on your environment with docker
+HomeBrew OS on your environment with Docker
 # Require
 Docker environment.  
 Windows  
@@ -18,12 +18,21 @@ Windows
 MacOSX  
 [X window for Mac](https://www.xquartz.org/)   
 
-Only that....Maybe
+Only that....Maybe  
 If you get in trouble ,Plese ask me or google.
 
-
-
 # Usage
+First, make your work directory and git clone this repo in that one.  
+Second, run the Makefile.  
+```
+WORKDIR/selfOS/
+
+$ make build
+```
+third, run the docker image, you built.  
+share workdir during Host and Docker Container.  
+So If you change workdir on Host, it will be reflected in Container.  
+
 # License
 MIT License  
 Email : kakky.ryouhei@gmail.com
