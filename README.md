@@ -1,5 +1,7 @@
 # selfOS
-HomeBrew OS on your environment with Docker
+HomeBrew OS on your environment with Docker  
+Operation confirmed up to Day 4
+
 # Require
 Docker environment.  
 Windows  
