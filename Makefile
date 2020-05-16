@@ -12,7 +12,6 @@ default:run
 
 build:Dockerfile
 	docker build -t ${IMG_NAME}:${VERSION} .
-	echo HOST = ${GETH} >> Makefile
 	
 run:
-	docker run --rm -i -t -e DISPLAY=${HOST}:0 -v ~/.Xauthority:/root/.Xauthority -v ${WDIR_H}:${WDIR_D} ${IMG_NAME}:${VERSION} ${CMD}
+	docker run --rm -it --net host -e DISPLAY=${HOST}:0 -v ~/.Xauthority:/root/.Xauthority -v ${WDIR_H}:${WDIR_D} ${IMG_NAME}:${VERSION} 
